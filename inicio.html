@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet"  href="css/inicio.css">
+  </head>
+  <body>
+    <header>
+      <h1>Meu Portfólio</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Sobre</a></li>
+          <li><a href="#work">Trabalho</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h2>Sobre mim</h2>
+        <p>Profissional com sólida experiência na área da comunicação e o administrativo. 
+          Atuação em empresas de médio a grande porte, cadastro de materiais, conhecimento em documentação para contratos de locação, atendimento ao cliente, crédito consignado e crédito direto ao consumidor.
+          Com perfil proativo, responsável, comprometido com o trabalho, facilidade em trabalhar em equipe.</p>
+      </section>
+      <section id="work">
+        <h2>Meu trabalho</h2>
+        <ul>
+          <li>
+            <h3>Project 1</h3>
+            <img src="project1.jpg" alt="Project 1 Screenshot">
+            <p>Add a brief description of your project here.</p>
+          </li>
+          <li>
+            <h3>Project 2</h3>
+            <img src="project2.jpg" alt="Project 2 Screenshot">
+            <p>Add a brief description of your project here.</p>
+          </li>
+          <!-- Add more projects here -->
+        </ul>
+      </section>
+      <section id="contact">
+        <h2>Contate-me</h2>
+        <form>
+          <label for="name">Nome:</label><br>
+          <input type="text" id="name" name="name"><br>
+          <label for="email">Email:</label><br>
+          <input type="text" id="email" name="email"><br>
+          <label for="message">Mensagem:</label><br>
+          <textarea id="message" name="message"></textarea><br>
+          <input type="submit" value="Submit">
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright 2022 My Portfolio</p>
+    </footer>
+
+    
+    <canvas id="myCanvas" width="1423" height="200"></canvas>
+              <script>
+                // Obtém a referência do elemento canvas
+                var canvas = document.getElementById("myCanvas");
+
+                // Obtém o contexto de desenho do canvas
+                var ctx = canvas.getContext("2d");
+
+                // Desenha um círculo
+                function drawCircle() {
+                  ctx.beginPath();
+                  ctx.arc(x, 100, 50, 0, 2 * Math.PI);
+                  ctx.fillStyle = "black";
+                  ctx.fill();
+                }
+
+                // Inicializa a posição x do círculo
+                var x = 0;
+
+                // Define a função que atualiza a animação
+                function update() {
+                  // Limpa o canvas
+                  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+                  // Atualiza a posição x do círculo
+                  x += 1;
+
+                  // Desenha o círculo com a nova posição x
+                  drawCircle();
+
+                  // Chama a função update novamente após 10 milissegundos
+                  setTimeout(update, 5);
+                }
+
+                // Inicia a animação
+                update();
+              </script>
+
+  </body>
+</html>

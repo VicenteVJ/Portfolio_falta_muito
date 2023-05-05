@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Currículo de Vicente Joel</title>
+  <link rel="stylesheet"  href="css/style.css">
+
+</head>
+<body>
+  <div class="container">
+    <!-- Cabeçalho -->
+    <header>
+      <h1>Vicente Joel</h1>
+      <p> Cascavel - PR | (45)9.9104-8196 | vicentefreitas159@gmail.com </p>
+      <a class="back-button" href="inicio.html">Voltar</a>
+    </header>
+    
+    <!-- Img perfil -->
+    <img src="./img/perfil.jpg" alt="Perfil">
+
+    <!-- Conteúdo -->
+    <main>
+      <!-- Seção de objetivo profissional -->
+      <section class="objective">
+        <h2>Objetivo Profissional</h2>
+        <p>Profissional com sólida experiência na área da comunicação e o administrativo. 
+          Atuação em empresas de médio a grande porte, cadastro de materiais, conhecimento em documentação para contratos de locação, atendimento ao cliente, crédito consignado e crédito direto ao consumidor.
+          Com perfil proativo, responsável, comprometido com o trabalho, facilidade em trabalhar em equipe.</p>
+      </section>
+
+      <!-- Seção de informações pessoais -->
+      <section class="personal-info">
+        <h2>Informações Pessoais</h2>
+        <p>Nascimento: 13/09/1997</p>
+        <p>Residente: Cascavel - PR</p>
+        <p>Nacionalidade: Brasileiro</p>
+      </section>
+
+      <!-- Seção de formação acadêmica -->
+      <section class="education">
+        <h2>Formação Acadêmica</h2>
+        <div class="item">
+          <h3>Grau de Ensino</h3>
+          <h4>Instituição | Período</h4>
+          <p>Área de estudo</p>
+        </div>
+      </section>
+
+      <!-- Seção de habilidades -->
+      <section class="skills">
+        <h2>Habilidades</h2>
+        <ul>
+          <li>Habilidade 1</li>
+          <li>Habilidade 2</li>
+          <li>Habilidade 3</li>
+        </ul>
+      </section>
+
+      <!-- Seção de certificações -->
+      <section class="certifications">
+        <h2>Certificações</h2>
+        <ul>
+          <li>Certificação 1</li>
+          <li>Certificação 2</li>
+          <li>Certificação 3</li>
+        </ul>
+      </section>
+
+      <!-- Seção de experiência -->
+      <section class="experience">
+        <h2>Experiência</h2><br>
+        <div class="item">
+          <h3>Funcionário do setor administrativo</h3>
+          <h4>FORTHE Imobiliária | Tempo integral</h4>
+          <p>- Controles internos e atividades de rotina administrativa;</p>
+          <p>- Manutenções de imóveis de locação.</p>
+          <p>Competências: Manutenção e reparo · Seguros de imóveis e acidentes.</p>
+        </div>
+        <div class="item">
+          <h3>Consultor financeiro de vendas</h3>
+          <h4>Cvelcredi Solucoes De Negocios | Tempo integral</h4>
+          <p>- Vendas, divulgação da marca;</p>
+        </div>
+  </div>
+
+      <div id="imgs">
+        <img src="./img/html5-original.svg" alt="Imagem 1">
+        <img src="./img/javascript-plain.svg" alt="Imagem 2">
+        <img src="./img/css3-original.svg" alt="Imagem 3">
+        <img src="./img/csharp-original.svg" alt="Imagem 4">
+      </div>
+      </section>
+    </main>
+ 
+      <script>
+
+        var images = document.querySelectorAll('#imgs img');
+
+for (var i = 0; i < images.length; i++) {
+  images[i].style.top = (i * 0) + 'px';
+  images[i].style.left = (i * 437) + 'px';
+}
+      </script>
+
+</body>
+</html>

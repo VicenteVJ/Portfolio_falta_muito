@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contato</title>
+    <link rel="stylesheet"  href="css/contato.css">
+  </head>
+  <body>
+    <header>
+      <h1>Contato</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Sobre</a></li>
+          <li><a href="#work">Trabalho</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="contact">
+        <h2>Contate-me</h2>
+        <form action="/enviar-mensagem" method="post">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome"><br>
+            <label for="email">Endereço de e-mail:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="assunto">Assunto:</label><br>
+            <input type="text" id="assunto" name="assunto"><br>
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="10" cols="50"></textarea><br>
+            <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright 2022 My Portfolio</p>
+    </footer>
+  </body>
+</html>
