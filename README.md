@@ -31,7 +31,7 @@ Para o desenvolvimento deste site utilizei as seguintes tecnologias:
   <tr>
     <td align="center">
       <a href="https://github.com/VicenteVJ">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Vicente Joel no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/106132901?v=4" width="100px;" alt="Foto do Vicente Joel no GitHub"/><br>
         <sub>
           <b>Vicente Joel</b>
         </sub>
