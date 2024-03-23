@@ -1,0 +1,122 @@
+  /* Estilos para a página */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #0E0B16, #A128CA);
+  }
+  img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  /* Estilos para o cabeçalho */
+  header {
+    background-color: #0E0B16;
+    color: #E7DFDD;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+
+  /* Estilos para button */
+  a.back-button {
+    background-color: rgb(255, 255, 255);
+    color: #0E0B16;
+    font-size: 1em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  /* Estilos para o conteúdo */
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+  }
+  /* Estilos para a seção de informações pessoais */
+  .personal-info {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .personal-info h2 {
+    margin: 0;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  .personal-info p {
+    margin: 0;
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
+  /* Estilos para a seção de habilidades */
+  .skills {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .skills h2 {
+    margin: 0;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  .skills ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .skills li {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  /* Estilos para a seção de experiência */
+  .experience {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .experience h2 {
+    margin: 0;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  .experience .item {
+    margin-bottom: 20px;
+  }
+  .experience .item h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  .experience .item h4 {
+    margin: 0;
+    font-size: 1em;
+    font-style: italic;
+    color:#E7DFDD;
+  }
+
+  #imgs {
+    position: relative;
+    width: 500px;
+    height: -5px;
+  }
+  
+  #imgs img {
+    position: absolute;
+    width: 120px;
+    height: 100px;
+  }
